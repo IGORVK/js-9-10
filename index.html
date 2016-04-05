@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>jCourusel-etc...</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/jquery.mfs.css" />
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/jquery.color.js"></script>
+	<script src="js/jquery.jcarousel.js"></script>
+	<script src="js/jcarousel.js"></script>
+	<script src="js/jquery.mfs.js"></script>
+	<script src="js/jquery.checkbox.js"></script> 
+	
+	<script src="js/jmenu.js"></script>	
+	<!-- <script src="js/jcolor-menu.js"></script>    
+	 -->
+</head>
+<body>    
+   <div id="pop-up-menu">
+         <h1>jQuery Menu and CSS </h1>
+       <nav>
+            <ul class="content clearfix">
+                <li><a href="#">Nav 1</a></li>
+                <li><a href="#">Nav 2</a></li>
+                <li class="dropdown">
+                    <a href="#">Nav 3</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Nav 3.1</a></li>
+                        <li><a href="#">Nav 3.2</a></li>
+                        <li><a href="#">Nav 3.3</a></li>
+                        <li class="dropdown">
+                            <a href="#">Nav 3.4</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Nav 3.4.1</a></li>
+                                <li class="dropdown">
+                                    <a href="#">Nav 3.4.2</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Nav 3.4.2.1</a></li>
+                                        <li><a href="#">Nav 3.4.2.2</a></li>
+                                        <li><a href="#">Nav 3.4.2.3</a></li>
+                                        <li><a href="#">Nav 3.4.2.4</a></li>
+                                        <li><a href="#">Nav 3.4.2.5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Nav 3.4.3</a></li>
+                                <li><a href="#">Nav 3.4.4</a></li>
+                                <li><a href="#">Nav 3.4.5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Nav 3.5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Nav 4</a></li>
+                <li><a href="#">Nav 5</a></li>
+            </ul>
+       </nav>
+   </div>
+   
+   <div class="wrapper">
+            <h1>jCarousel-control-pagination </h1>
+            <p> </p>
+            <div class="jcarousel-wrapper">
+                <div class="jcarousel" data-jcarousel="true">
+                    <ul style="left: 0px; top: 0px;">
+                        <li><img src="img/1.jpg" width="483" height="302" alt=""></li>
+                        <li><img src="img/2.jpg" width="483" height="302" alt=""></li>
+                        <li><img src="img/3.jpg" width="483" height="302" alt=""></li>
+                        <li><img src="img/4.jpg" width="483" height="302" alt=""></li>
+                    </ul>
+                </div>
+                <a href="#" class="jcarousel-control-prev inactive" data-jcarouselcontrol="true">‹</a>
+                <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true">›</a>
+                <p class="jcarousel-pagination" data-jcarouselpagination="true"><a href="#1" class="active">1</a><a href="#2">2</a><a href="#3">3</a><a href="#4">4</a><a href="#5">5</a><a href="#6">6</a></p>
+            </div>
+     </div>
+        
+     <div class="mfs-select">
+             
+            <form action="">
+                <h1>jQuery custom mfs-select </h1>
+                   <p> </p>
+            <select name="moto" size="1" id="motoSelect">
+               <option value="1">200$/day</option>
+               <option value="2">240$/day</option>
+               <option value="3">270$/day</option>
+               <option value="4">350$/day</option>
+            </select>
+            </form>
+        </div>
+   
+       <div class="main jquery-checkbox">
+         <form action="#">
+                 <h1>JQuery checkboxes </h1>
+                   <p> </p>
+            <div>
+                <label for="ch1">$-checkbox-1:</label>
+                <input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> 
+            </div>
+            <div>
+                <label for="ch2">$-checkbox-2:</label>
+                <input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" />
+            </div>
+            <div>
+                <label for="ch3">$-checkbox-3:</label>
+                <input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" />
+            </div>
+         </form>
+       </div>
+       
+      <div class="main css-checkbox">   
+         <form action="#">
+                 <h1>CSS checkboxes </h1>
+                   <p> </p>
+                    <div class='input-css'>
+                        <input type="checkbox" id="test-check1">
+                        <label for="test-check1">css-checkbox-1:</label> 
+                    </div>
+                    <div class='input-css'>
+                        <input type="checkbox" id="test-check2">
+                        <label for="test-check2">css-checkbox-2:</label> 
+                    </div>
+          </form>
+       </div>     
+</body>
+</html>
